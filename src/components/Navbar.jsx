@@ -8,11 +8,11 @@ const Navbar = () => {
     const {cart} = useSelector( (state) => state);   // fetch the cart data then show on the UI on cart icon the length of items. 
    
   return (
-    <div>
-        <nav className='flex justify-between items-center h-[60px] max-w-6xl mx-auto'>
+    <div className='bg-gray-300'>
+        <nav className='flex justify-between items-center h-[80px] max-w-6xl mx-auto'>
         
             <NavLink to="/">
-                <div className='ml-5'>
+                <div className='ml-5 bg-gray-300'>
                     <img 
                     className='h-[50px]'
                     src="/logo.png" alt='Logo'
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>          
             </NavLink>
 
-            <div className='flex text-slate-100 font-medium items-center mr-5 space-x-6'>                                                                                                            
+            <div className='flex text-slate-700 font-medium items-center mr-5 space-x-6'>                                                                                                            
                 <NavLink to="/">
                     <p>Home</p>
                 </NavLink>
