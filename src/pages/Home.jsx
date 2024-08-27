@@ -43,7 +43,7 @@ const Home = () => {
         ) : 
         items.length > 0 ?  // if true then show this
         (
-          <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl p-2 mx-auto space-y-10 space-x-5 min-h-[80vh] mb-10 mr-5'>
+          <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl pr-5 mx-auto space-y-10 space-x-5 min-h-[80vh] mb-10'>
             {/* Mapping over posts to render each Product component */}
             {
               items.map((item) => (                 // here apply mapping over the items for return the single "item" data. Further add "Product.jsx" component. 
