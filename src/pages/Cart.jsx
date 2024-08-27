@@ -34,7 +34,7 @@ const Cart = () => {
           
             
             {/* Second div in CartItem*/}
-            <div className='flex flex-col h-full md:h-[400px] gap-[150px] md:gap-[390px] w-[150px] md:w-[40%] justify-between mt-4 md:mt-20 ml-10 p-3'>
+            <div className='flex flex-col h-full md:h-[400px] gap-[130px] md:gap-[350px] w-[150px] md:w-[40%] justify-between mt-4 md:mt-20 ml-10 p-3 mb-6'>
               <div>
 
                 <div className='font-semibold text-xl text-green-800 uppercase'>Your Cart</div>
