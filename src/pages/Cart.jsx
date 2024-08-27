@@ -18,10 +18,10 @@ const Cart = () => {
 
 
   return (
-    <div className='flex justify-center items center mb-2'>
+    <div className='flex justify-center items-center mb-2'>
         {
          cart.length > 0 ?
-         (<div className='flex max-w-6xl '>
+         (<div className='md:flex max-w-6xl '>
 
             <div className='w-[100%] md:w-[60%] flex flex-col p-2'>
               {
@@ -34,7 +34,7 @@ const Cart = () => {
           
             
             {/* Second div in CartItem*/}
-            <div className='flex flex-col h-[400px] gap-[380px] w-[40%] justify-between mt-20 ml-8 p-3'>
+            <div className='flex flex-col h-full md:h-[400px] gap-[150px] md:gap-[390px] w-[150px] md:w-[40%] justify-between mt-4 md:mt-20 ml-10 p-3'>
               <div>
 
                 <div className='font-semibold text-xl text-green-800 uppercase'>Your Cart</div>
@@ -42,7 +42,7 @@ const Cart = () => {
                   <p className='text-xl'>
                     <span className='text-gray-700 font-semibold text-xl'>Total Items: {cart.length}</span>
                   </p>
-                </div>
+              </div>
 
                 <div className='flex flex-col'>
                 
